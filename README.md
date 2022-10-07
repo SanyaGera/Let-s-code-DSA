@@ -21,7 +21,7 @@
 This project is for open source contributions related Data Structures and Algorithms (in C++) and C++ concepts. Feel free to make your contributions.
 Feel free to ask for [help](https://github.com/umilabsfikom/Hacktoberfest-2022/issues).
 
-Working on your first Pull Request? You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://github.com/firstcontributions/first-contributions)
+Working on your first Pull Request?ons/first-contributions)
 
 <center>:sparkles:<h4>1 OCTOBER - 31 OCTOBER</h4>:sparkles:<center>
 Pull request and add any feature to the website.:octocat:
