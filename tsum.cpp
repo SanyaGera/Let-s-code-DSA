@@ -1,3 +1,7 @@
+// problem link : https://leetcode.com/problems/two-sum/
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -15,3 +19,24 @@ public:
         return {-1,-1};
     }
 };
+
+int main() {
+	int T;
+	cin>>T;
+	while(T--){
+	    int n,target;
+	    cin>>n>>target;
+	    vector<int>nums;
+	    for(int i=0;i<n;i++)
+	    {
+	      int num;
+	      cin>>num;
+	      nums.push_back(num);
+	    }
+	    Solution ob;
+	    auto ans=ob.twoSum(nums,target);
+	    for(auto &x : ans)cout<<x<<" ";
+	    cout<<endl;
+	}
+	return 0;
+}
